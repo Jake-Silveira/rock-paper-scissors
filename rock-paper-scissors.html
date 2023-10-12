@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <script src="javascript.js"></script>
+</head>
+<body>
+<h1> Rock Paper Scissors!</h1>
+
+<div class="Form">
+    <label for="userinput">Best of 5! Enter Rock, Paper or Scissors Below. <br></label>
+    <input type="text" id="userinput" class="userinput">
+    <input class="submitbutton" type="button" value="Submit"> <input class="resetbutton" type="button" value="Reset">
+    <div class="paras">
+        <p class="result"></p>
+        <p class="scoreCard"></p>
+    </div>
+</div>
+
+    
+</body>
+
+
+<script>
+
+const submitbutton = document.querySelector('.submitbutton');
+const resetbutton = document.querySelector('.resetbutton');
+
+submitbutton.addEventListener('click', game)
+resetbutton.addEventListener('click', resetGame)
+
+</script>
+</html>
