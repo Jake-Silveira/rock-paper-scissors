@@ -122,7 +122,7 @@ var runningCount = 0;
       fireButton.addEventListener('click', () => {
         alert("IT'S FUCKING FIRE!!!!!");
         gameOutcome.style.color = 'green';
-        gameOutcome.textContent = "You chose to wave your fingers in an upward motion, to which the computer asked: 'what is that? and you said... IT'S FUCKING FIRE!! ";
+        gameOutcome.textContent = "You chose to wave your fingers in an upward motion, to which the computer asked: 'what is that?' and you said... IT'S FUCKING FIRE!! ";
         runningCount = 5;
         humanScore = 9999999999
         runningScore.textContent = "Your Score: " + humanScore + " Computer Score: " + computerScore + " Rounds Tied: " + tieScore;
